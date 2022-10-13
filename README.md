@@ -1,5 +1,6 @@
 Used commands:
 
+    composer install
     php artisan serve
     php artisan route:cache
     php artisan route:list
@@ -13,3 +14,10 @@ Ngrok
 
     cd into app root directory
     ngrok http 8000
+
+About
+
+    Adapter
+
+    Transforma um JSON em XML
+

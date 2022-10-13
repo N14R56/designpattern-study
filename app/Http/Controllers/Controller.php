@@ -14,7 +14,19 @@ class Controller extends BaseController
     public function adapt()
     {
         return response(
-            'Olá Rufinão, seja bem-vindo ao nosso microserviço incrível!'
+            '
+            Seu JSON:
+                {
+                    "Matheus" : "Backend",
+                    "Ruffino" : "Power BI"
+                }
+            
+            Em XML:
+
+                <Matheus>Backend<Matheus>
+                <Ruffino>Backend<Ruffino>
+
+            '
         );
     }
 }
